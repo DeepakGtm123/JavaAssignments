@@ -6,8 +6,8 @@ Default interface methods are an efficient way to deal with this issue. They all
 there's no need to modify the implementing classes.
 In this way, backward compatibility is neatly preserved without having to refactor the implementers.
 
-                      code 
-                      
+CODE Example
+```Java                      
       interface TestInterface { 
  	public void square(int a); 
 	default void show() { 
@@ -23,4 +23,5 @@ In this way, backward compatibility is neatly preserved without having to refact
      		d.square(4); 
      		d.show(); 
      	} 
-     } 
+     }
+ ```
