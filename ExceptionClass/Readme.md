@@ -3,7 +3,8 @@ Exception class If we are creating your own Exception that is known as custom ex
 
 Method for creating exception class: We should create a new class whose name should end with Exception like ClassNameException. This is a convention to differentiate an exception class from regular ones.Then,we should make the class that extends one of the exceptions which are subtypes of the java.lang.Exception class. Generally, a custom exception class always extends directly from the Exception class.Then we should create a constructor with a String parameter which is the detail message of the exception. In this constructor, simply we should call the super constructor and pass the message
 
-                 CODE          
+CODE Example
+```Java
       class InvalidAgeException extends Exception{  
       	InvalidAgeException(String s){  
       		super(s);  
@@ -26,5 +27,6 @@ Method for creating exception class: We should create a new class whose name sho
 		System.out.println("rest of the code...");  
 	}  
 }
-    Output:Exception occured: InvalidAgeException:not valid
+```
+ Output:Exception occured: InvalidAgeException:not valid
            rest of the code...
