@@ -1,7 +1,7 @@
-# Exception Class
-Exception class If we are creating your own Exception that is known as custom exception or user-defined exception. Java custom exceptions are used to customize the exception according to user need. By the help of custom exception, we can have your own exception and message.
+# **Exception Class**
+*Exception class* If we are creating your own Exception that is known as custom exception or user-defined exception. Java custom exceptions are used to customize the exception according to user need. By the help of custom exception, we can have your own exception and message.
 
-Method for creating exception class: We should create a new class whose name should end with Exception like ClassNameException. This is a convention to differentiate an exception class from regular ones.Then,we should make the class that extends one of the exceptions which are subtypes of the java.lang.Exception class. Generally, a custom exception class always extends directly from the Exception class.Then we should create a constructor with a String parameter which is the detail message of the exception. In this constructor, simply we should call the super constructor and pass the message
+*Method for creating exception class:*  We should create a new class whose name should end with Exception like ClassNameException. This is a convention to differentiate an exception class from regular ones.Then,we should make the class that extends one of the exceptions which are subtypes of the java.lang.Exception class. Generally, a custom exception class always extends directly from the Exception class.Then we should create a constructor with a String parameter which is the detail message of the exception. In this constructor, simply we should call the super constructor and pass the message
 
 CODE Example
 ```Java
@@ -29,4 +29,4 @@ CODE Example
 }
 ```
  Output:Exception occured: InvalidAgeException:not valid
-           rest of the code...
+        rest of the code...
