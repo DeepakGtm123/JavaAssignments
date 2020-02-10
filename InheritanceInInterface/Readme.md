@@ -7,7 +7,8 @@ In other words, you can say that interfaces can have abstract methods and variab
 Java Interface also represents the IS-A relationship.
 It cannot be instantiated just like the abstract class.
 
-                 CODE
+ CODE Example
+ ```Java
 interface AnimalEat {
       void eat();
 }
@@ -28,7 +29,8 @@ class Animal implements AnimalEat, AnimalTravel {
        		a.travel();
     	}
      }
+ ```
                      
-          output
+ output
       Animal is eating
       Animal is travelling
