@@ -4,7 +4,8 @@ An array in Java without any name is anonymous array. It is an array just for cr
 - The main purpose of anonymous array is just for instant use (just for one time usage) .
 - Anonymous array is passed as an argument of method
 - Syntax:
-	// anonymous int array 
+'''java
+// anonymous int array 
 	new int[] { 1, 2, 3, 4};  
 
 	// anonymous char array 
@@ -15,6 +16,8 @@ An array in Java without any name is anonymous array. It is an array just for cr
 
 	// anonymous multidimensional array
 	new int[][] { {10, 20}, {30, 40, 50} };
+	end
+	'''
 
 // Java program to illustrate the concept of anonymous array 
 	class Test { 
