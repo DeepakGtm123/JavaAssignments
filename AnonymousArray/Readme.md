@@ -16,11 +16,9 @@ An array in Java without any name is anonymous array. It is an array just for cr
 
 	// anonymous multidimensional array
 	new int[][] { {10, 20}, {30, 40, 50} };
-	```
 
 
 // Java program to illustrate the concept of anonymous array
-```Java
 	class Test { 
     		public static void main(String[] args)  { 
           			// anonymous array 
