@@ -8,7 +8,8 @@ Example: Entry interface inside Map interface is nested. Thus we access it by ca
 The following are the rules governing a nested interface.
 -A nested interface declared within an interface must be public. A nested interface declared within a class can have any access modifier. A nested interface is by default static
 
-	CODE                    
+CODE Example
+```Java
   public class Demo1 {
  	public static void main(String[] args){
   		C ob = new C();
@@ -25,5 +26,6 @@ The following are the rules governing a nested interface.
  		System.out.println("Demo: interface nested inside a class");
 	}
   }
+  ```
 
   Output : Demo: interface nested inside a class
