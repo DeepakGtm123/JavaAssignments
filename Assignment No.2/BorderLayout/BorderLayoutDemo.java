@@ -3,7 +3,7 @@ import java.awt.*;
 public class BorderLayoutDemo {  
   Frame f;  
   BorderLayoutDemo(){  
-    f=new JFrame();  
+    f=new Frame();  
       
     Button b1=new Button("NORTH");;  
     Button b2=new Button("SOUTH");;  
