@@ -18,9 +18,9 @@ public class CardLayoutDemo extends Frame implements ActionListener{
     b2.addActionListener(this);  
     b3.addActionListener(this);  
               
-    c.add("a",b1);c.add("b",b2);c.add("c",b3);  
-                          
-  }  
+    c.add("a",b1);c.add("b",b2);c.add("c",b3); 
+  } 
+  
   public void actionPerformed(ActionEvent e) {  
     card.next(c);  
   }  
