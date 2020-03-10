@@ -1,4 +1,4 @@
-### Java event handling by implementing ActionListener
+/// Java event handling by implementing ActionListener
 import java.awt.*;  
 import java.awt.event.*;  
 class AEvent extends Frame implements ActionListener{  
