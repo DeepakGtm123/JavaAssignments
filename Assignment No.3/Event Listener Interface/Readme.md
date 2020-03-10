@@ -8,7 +8,7 @@ It is a marker interface which every listener interface has to extend.This class
 Following is the declaration for java.util.EventListener interface:
   public interface EventListener
 
-### AWT Event Listener Interfaces:
+### AWT Event Listener Interfaces
 Following is the list of commonly used event listeners.
 
 Control | Description
