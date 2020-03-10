@@ -19,11 +19,14 @@ class AEvent extends Frame implements ActionListener{
     setSize(300,300);  
     setLayout(null);  
     setVisible(true);  
-  }  
+  } 
+  
   public void actionPerformed(ActionEvent e){  
     tf.setText("Welcome");  
-  }  
+  } 
+  
   public static void main(String args[]){  
     new AEvent();  
-  }  
+  }
+  
 }  
