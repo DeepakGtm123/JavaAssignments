@@ -6,10 +6,11 @@ It is a marker interface which every listener interface has to extend.This class
 
 ### Class declaration
 Following is the declaration for java.util.EventListener interface:
-public interface EventListener
+  public interface EventListener
 
 ### AWT Event Listener Interfaces:
 Following is the list of commonly used event listeners.
+
 Control | Description
 ---------- | ----------
 ActionListener | This interface is used for receiving the action events.	
