@@ -6,6 +6,7 @@ It is a marker interface which every listener interface has to extend.This class
 
 ### Class declaration
 Following is the declaration for java.util.EventListener interface:
+
   public interface EventListener
 
 ### AWT Event Listener Interfaces
@@ -24,3 +25,4 @@ AdjustmentListener | This interface is used for receiving the adjusmtent events.
 ContainerListener | This interface is used for receiving the container events.
 MouseMotionListener | This interface is used for receiving the mouse motion events.
 FocusListener | This interface is used for receiving the focus events.
+
