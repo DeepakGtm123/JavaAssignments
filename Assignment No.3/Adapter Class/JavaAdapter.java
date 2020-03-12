@@ -1,7 +1,7 @@
 import java.awt.*;  
 import java.awt.event.*;  
-public class JavaAdapter{  
-    Frame f;  
+public class JavaAdapter{ 
+    Frame f; 
     JavaAdapter(){  
         f=new Frame("Window Adapter");  
         f.addWindowListener(new WindowAdapter(){  
@@ -9,12 +9,13 @@ public class JavaAdapter{
                 f.dispose();  
             }  
         });  
-          
+        
         f.setSize(400,400);  
         f.setLayout(null);  
         f.setVisible(true);  
+    }
+    
+    public static void main(String[] args) {  
+        new JavaAdapter();  
     }  
-public static void main(String[] args) {  
-    new JavaAdapter();  
-}  
 }  
