@@ -1,5 +1,5 @@
-### Displaying Graphics in Applet
-java.awt.Graphics class provides many methods for graphics programming.
+# Displaying Graphics in Applet
+**java.awt.Graphics** class provides many methods for graphics programming.
 
 ### Commonly used methods of Graphics class:
 1. public abstract void drawString(String str, int x, int y): is used to draw the specified string.
